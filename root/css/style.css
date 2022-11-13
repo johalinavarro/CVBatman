@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    header .fondo {
+        display: flex;
+        justify-content: center;
+        background-color: #E6E6E6;
+    }
+
+        header .imagen {
+            display: flex;
+            justify-content: center;
+            width: 100px;
+            height: 146.37px;
+            padding: 20px;
+        }
+
+    header h1 {
+        display: flex;
+        justify-content: center;
+        background-color: #c4c4c4;
+        color: #005677;
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        padding: 5px;
+    }
+
+.espacio {
+    display: flex;
+    height: 120px;
+}
+
+.contenedor {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    .contenedor h2 {
+        display: flex;
+        justify-content: flex-start;
+        background-color: #c4c4c4;
+        color: #005677;
+        letter-spacing: 8px;
+        padding: 3px;
+        padding-left: 15px;
+    }
+
+    .contenedor .lista {
+        font-weight: 400px;
+        font-size: 15px;
+        height: 80px;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+
+        .contenedor .lista li span {
+            font-style: italic;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+    .contenedor div {
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .contenedor div p {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 16.68px;
+    }
+
+    .contenedor div ul {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 12.7px;
+        list-style-type: none;
+        margin: 2px;
+    }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100vw;
+    position: fixed;
+    background-color: #005677;
+    color: white;
+}
+
+    footer p {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 16.94px;
+        color: #FFFFFF;
+        padding: 11px;
+    }
+
+    footer a {
+        margin: 10px;
+    }
